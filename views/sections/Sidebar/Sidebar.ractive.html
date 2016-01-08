@@ -1,0 +1,15 @@
+<!-- This button toggles sidebar -->
+<div id="sidebar-wrapper">
+  <a 
+    class="toggle-sidebar"
+    href="#" 
+    on-click="toggle('sidebar_toggled')">
+      <i class="fa fa-arrow-circle-{{condition(sidebar_toggled, 'right', 'left')}}"></i>
+    </a>
+    <ul class="sidebar-nav">
+        <li class="sidebar-brand"><a href="#">Home</a></li>
+        <li><a href="#">Another link</a></li>
+        <li><a href="#">Next link</a></li>
+        <li><a href="#">Last link</a></li>
+    </ul>
+</div>

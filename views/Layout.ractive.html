@@ -1,0 +1,42 @@
+<!-- "/:screen/:tab/:context/:action" -->
+{{>resolveComponent("TopMenu", {state: "state"})}}
+
+
+
+<div id="wrapper" class="{{condition(sidebar_toggled, 'toggled')}}">
+    {{>resolveComponent("Sidebar", {state: "state", sidebar_toggled: "sidebar_toggled"})}}
+    <div id="page-content-wrapper">
+        <div class="page-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                        {{>resolveComponent("SomeScreenComponent", {state: "state"})}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
