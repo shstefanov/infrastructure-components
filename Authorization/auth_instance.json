@@ -1,0 +1,9 @@
+{
+  "prototype": "infrastructure-express/Page",
+  "root":      "/auth",
+  "template":  "auth/login.mustache",
+  
+  "GET /":         "#auth/login.mustache",
+  "GET /login":    "#auth/login.mustache",
+  "GET /register": "#auth/register.mustache"
+}
